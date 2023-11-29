@@ -9,7 +9,7 @@ const devConfig = {
     rules: [
       {
         test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader", getConditionalLoader()],
+        use: ["style-loader", "css-loader", "postcss-loader", "sass-loader"], // getConditionalLoader()
       },
     ],
   },
